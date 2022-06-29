@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BDC70B82866E09300A9C566 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC70B72866E09300A9C566 /* BannerView.swift */; };
 		9BE604A328657CD600C314FD /* iOSWordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE604A228657CD600C314FD /* iOSWordleApp.swift */; };
 		9BE604A528657CD600C314FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE604A428657CD600C314FD /* ContentView.swift */; };
 		9BE604A728657CD800C314FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE604A628657CD800C314FD /* Assets.xcassets */; };
 		9BE604AA28657CD800C314FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE604A928657CD800C314FD /* Preview Assets.xcassets */; };
+		9BE604B128657CEE00C314FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE604B028657CEE00C314FD /* Model.swift */; };
+		9BE604B3286582AB00C314FD /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE604B2286582AB00C314FD /* KeyboardView.swift */; };
+		9BE604B52865867B00C314FD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE604B42865867B00C314FD /* GameView.swift */; };
+		9BE604B728658D3D00C314FD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE604B628658D3D00C314FD /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BDC70B72866E09300A9C566 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		9BE6049F28657CD600C314FD /* iOSWordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE604A228657CD600C314FD /* iOSWordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSWordleApp.swift; sourceTree = "<group>"; };
 		9BE604A428657CD600C314FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BE604A628657CD800C314FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE604A928657CD800C314FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BE604B028657CEE00C314FD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9BE604B2286582AB00C314FD /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		9BE604B42865867B00C314FD /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9BE604B628658D3D00C314FD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				9BE604A228657CD600C314FD /* iOSWordleApp.swift */,
 				9BE604A428657CD600C314FD /* ContentView.swift */,
+				9BE604B628658D3D00C314FD /* ViewModel.swift */,
+				9BE604B028657CEE00C314FD /* Model.swift */,
+				9BE604B2286582AB00C314FD /* KeyboardView.swift */,
+				9BE604B42865867B00C314FD /* GameView.swift */,
+				9BDC70B72866E09300A9C566 /* BannerView.swift */,
 				9BE604A628657CD800C314FD /* Assets.xcassets */,
 				9BE604A828657CD800C314FD /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDC70B82866E09300A9C566 /* BannerView.swift in Sources */,
+				9BE604B128657CEE00C314FD /* Model.swift in Sources */,
+				9BE604B3286582AB00C314FD /* KeyboardView.swift in Sources */,
 				9BE604A528657CD600C314FD /* ContentView.swift in Sources */,
 				9BE604A328657CD600C314FD /* iOSWordleApp.swift in Sources */,
+				9BE604B728658D3D00C314FD /* ViewModel.swift in Sources */,
+				9BE604B52865867B00C314FD /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
