@@ -130,8 +130,8 @@ final class ViewModel: ObservableObject {
     
     func chooseWord(){
         let numRandom = Int.random(in: 0...myData.count - 1)
-        print("\(numRandom)")
         result = myData[numRandom].uppercased()
+        print("\(numRandom)--\(result)")
     }
     
     
