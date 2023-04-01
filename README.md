@@ -14,7 +14,10 @@
 
 https://user-images.githubusercontent.com/9596542/229275970-fdd932bc-a9ed-453f-a369-ace53b2aafc1.mp4
 
-![Simulator Screen Shot - iPhone 11 - 2023-04-01 at 02 49 24](https://user-images.githubusercontent.com/9596542/229276272-1659d1cb-b4fc-45e0-9987-56ee4acc55ee.png)
+
+
+
+
 
 
 
@@ -30,7 +33,13 @@ https://user-images.githubusercontent.com/9596542/229275970-fdd932bc-a9ed-453f-a
 - iOS 15.0+
 - XCode 13.3
 
+
+
+![Simulator Screen Shot - iPhone 11 - 2023-04-01 at 02 49 24](https://user-images.githubusercontent.com/9596542/229276272-1659d1cb-b4fc-45e0-9987-56ee4acc55ee.png)
+
+
 ## Installation
+
 
 #### Git Clone
 You can use `Git Clone` to clone the repository and run the app.
