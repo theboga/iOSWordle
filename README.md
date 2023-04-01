@@ -14,8 +14,7 @@
 
 https://user-images.githubusercontent.com/9596542/229275970-fdd932bc-a9ed-453f-a369-ace53b2aafc1.mp4
 
-
-![Simulator Screen Shot - iPhone 11 - 2023-04-01 at 02 49 24](https://user-images.githubusercontent.com/9596542/229276048-a52d142a-36e5-40b7-8b0b-53d0b2693561.png)
+![Simulator Screen Shot - iPhone 11 - 2023-04-01 at 02 49 24](https://user-images.githubusercontent.com/9596542/229276272-1659d1cb-b4fc-45e0-9987-56ee4acc55ee.png)
 
 
 
